@@ -3,127 +3,159 @@
     <head>
         <meta charset="utf-8">
         <style>
-
-        h2 {margin: 20px 0px 0px 200px;
-             font-weight: bold;
-             text-shadow: 2px 2px 10px rgb(136, 78, 203);}
-        table, tr, th, td{table-layout: fixed;
-            text-align: center;
-            border: solid 1px black;
-            border-collapse: collapse;
-            width: 120px; height: 40px; vertical-align: top;padding: 8px;}
+            body{ background-color: #feffa5;}
+            .clear {
+                clear: both;}
+                a:visited{text-decoration: none; color: black;}
+                a:hover{text-decoration: none; color: plum;}
+                a:link{text-decoration: none; color: black;}
+            header {
+                width: 1000px;
+                height: 60px;
+                margin-top: 10px;
+                border: solid 3px red;
+                background-color: beige;
+                font-size: 30px;
+                color: black;
+                text-align: center;}
             
-        </style>
+            nav {padding-top:30px; font-size: 16px; text-align: center; width: 1000px; height: 30px; }
 
-    </head>
-    <body>
-        <h2>
-            환영합니다! 20220347 백승은의 홈페이지입니다. <script>
-                function changeimage(image) 
-                {document.getElementById("iimage").src = image;}
-            </script>
-            <img id="iimage" src="짱구화이팅.jpg" width="50px" height="50px"
-            onmouseover="changeimage('짱구밥먹기.jpg')"onmouseout="changeimage('짱구화이팅.jpg')">
-        </h2>
-        
+            table, tr, th, td {text-align: center;
+                               border: solid 2px black;
+                               padding: 8px; width: 800px; height: 35px;
+                               margin-bottom: 8px; border-collapse: collapse;}
+
+                              
+
+            footer {
+                width: 1000px;
+                height: 185px;
+                margin-top: 10px;
+                border: solid 3px yellow;
+                background-color: beige;
+                color: black;}
+                
+                .aside {
+                margin: 0px 20px 0px 900px;
+            clear: both; }
+	
+
+
+
+                </style>
+                <body>
+                <header>환영합니다! My sweet home~<script>
+                    function changeimage(image) 
+                    {document.getElementById("image").src = image;}
+                </script>
+                <img id="image" src="짱구화이팅.jpg" width="50px" height="50px"
+                onmouseover="changeimage('짱구밥먹기.jpg')"onmouseout="changeimage('짱구화이팅.jpg')">
+            </header>
+
+                <nav>
+                    <a href="회원가입.html">회원가입</a>
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
+
+                    <a href="루바토펜션.html">루바토 펜션</a>
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
+
+                    <a href="제 1회 호서 국제 기타 페스티벌 안내.html">기타 페스티벌</a>
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
+
+                    <a href="주말 야간 개장 안내.html">야간 개장</a>
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
+
+                    <a href="세일 안내장.html">세일 안내</a>
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
+
+                    <a href="월간 일정표.html">월간 일정표</a>
+                    &nbsp;&nbsp;/&nbsp;&nbsp;
+
+                    <a href="쇼핑몰 판매 목록.html">판매 목록</a>
+                    
+                </nav>
+                <aside>
+                    <div class="aside">
+
+                
+                    <a href="https://www.youtube.com/watch?v=QXeCun-UNkA"><img src="짱구심심.jpg" width="120px" height="90px"></a>
+                </div>  </aside>
 <br>
-        <h3>2023년도 1학기 시간표(백승은)</h3>
-        <img id="양파" src="양파쿵야.jpg" width='215px' height='200px'> &nbsp;
-        <img onmouseover="this.style.width='200px'"onmouseout="this.style.width='20px'" src='최고심.jpg' width="20px">
-        <br>
-        <button onclick="document.getElementById('양파').src='겨드랑이에 양파끼우기.jpg'">!학교가기싫어!</button>
-        <button onclick="document.getElementById('양파').src='양파쿵야.jpg'">;가야지 어떡해;</button>
+                <table>
 
-        
-        
-    
+                    <tr>
+                       <th><img src="짱구가방.png" width="30px" height="30px">시간</th><th>월</th> <th>화</th ><th>수</th> <th>목</th> <th>금</th>
+                    </tr>
+                    
+                    <tr>
+                      <th>9:30~10:30</th> <th></th> <th></th> <th></th> <th></th> <th></th>
+                    </tr>
+                 
+                    <tr>
+                     <th>10:30~11:30</th> <th></th> <th></th> <th rowspan="2" >천안의 이해</th> <th>디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 웹프로그래밍</th>
+                    </tr>
+                 
+                 
+                    <tr>
+                       <th>11:30~12:30</th>
+                       <th></th> <th rowspan="2"> 디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 대학영어회화2</th>
+                       
+                    </tr>
+                 
+                    <tr>
+                       <th>12:30~1:30</th> <th></th> <th></th> <th></th>
+                    </tr>
+                  
+                    <tr>
+                       <th>1:30~2:30</th> <th></th> <th rowspan="2" >경영정보시스템</th> <th>경영정보시스템</th> <th></th> <th></th>
+                 
+                    </tr>
+                    
+                    <tr>
+                       <th>2:30~3:30</th> <th></th> <th></th> <th></th>
+                     
+                    </tr>
+                 
+                    <tr>
+                       <th>3:30~4:30</th> <th></th> <th></th> <th></th> <th></th>
+                     
+                    </tr>
+                 
+                    <tr>
+                       <th>4:30~5:30</th> <th></th> <th rowspan="2">예비부모교육</th> <th></th> <th></th>
+                       
+                    </tr>
+                 
+                    <tr>
+                     <th>5:30~6:30</th> <th></th> <th></th> <th rowspan="2" >한국음악과 문화</th> <th></th>
+                  </tr>
+                 
+                     <tr>
+                      <th>6:30~7:30</th> <th></th> <th></th> <th></th>
+                     </tr>
+                         
+                     <tr>
+                      <th>7:30~8:30</th> <th></th> <th></th> <th></th> <th></th>
+                     </tr>
+                         
+                     <tr>
+                      <th>8:30~9:30</th> <th></th> <th></th> <th></th> <th></th> <th>웹프로그래밍</th>
+                     </tr>
+                 
+                    
+                 </table>
+                 
+                 
 
-
-        <table>
-
-   <tr>
-      <th>시간</th><th>월</th> <th>화</th ><th>수</th> <th>목</th> <th>금</th>
-   </tr>
-   
-   <tr>
-     <th>9:30~10:30</th> <th></th> <th></th> <th></th> <th></th> <th></th>
-   </tr>
-
-   <tr>
-	<th>10:30~11:30</th> <th></th> <th></th> <th rowspan="2" >천안의 이해</th> <th>디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 웹프로그래밍</th>
-   </tr>
-
-
-   <tr>
-      <th>11:30~12:30</th>
-      <th></th> <th rowspan="2"> 디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 대학영어회화2</th>
-	  
-   </tr>
-
-   <tr>
-      <th>12:30~1:30</th> <th></th> <th></th> <th></th>
-   </tr>
- 
-   <tr>
-      <th>1:30~2:30</th> <th></th> <th rowspan="2" >경영정보시스템</th> <th>경영정보시스템</th> <th></th> <th></th>
-
-   </tr>
-   
-   <tr>
-      <th>2:30~3:30</th> <th></th> <th></th> <th></th>
-	
-   </tr>
-
-   <tr>
-      <th>3:30~4:30</th> <th></th> <th></th> <th></th> <th></th>
-	
-   </tr>
-
-   <tr>
-      <th>4:30~5:30</th> <th></th> <th rowspan="2">예비부모교육</th> <th></th> <th></th>
-	  
-   </tr>
-
-   <tr>
-	<th>5:30~6:30</th> <th></th> <th></th> <th rowspan="2" >한국음악과 문화</th> <th></th>
- </tr>
-
-    <tr>
-     <th>6:30~7:30</th> <th></th> <th></th> <th></th>
-    </tr>
-        
-    <tr>
-     <th>7:30~8:30</th> <th></th> <th></th> <th></th> <th></th>
-    </tr>
-        
-    <tr>
-     <th>8:30~9:30</th> <th></th> <th></th> <th></th> <th></th> <th>웹프로그래밍</th>
-    </tr>
-
-   
-</table>
-        <h3>
-            <a href="회원가입.html" target="_blank">회원가입</a>
-        </h3>
-        <h3>
-            <a href="루바토펜션.html" target="_blank">루바토 펜션 안내</a>
-        </h3>
-        <h3>
-            <a href="제 1회 호서 국제 기타 페스티벌 안내.html" target="_blank">제 1회 호서 국제 기타 페스티벌 안내</a>
-        </h3>
-        <h3>
-            <a href="주말 야간 개장 안내.html" target="_blank">야간 개장 안내</a>
-        </h3>
-        <h3>
-            <a href="세일 안내장.html" target="_blank">세일 안내장</a>
-        </h3>
-        <h3>
-            <a href="월간 일정표.html" target="_blank">월간 일정표</a>
-        </h3>
-        <h3>
-            <a href="쇼핑몰 판매 목록.html" target="_blank">쇼핑몰 판매 목록</a>
-        </h3>
-
-
-    </body>
-</html>
+                 <footer>
+                    <h4>주소 : 충청남도 천안시 동남구 호서대길 12</h4>
+                    <h4>전화번호 : 041-560-8114</h4>
+                    <h4>인스타그램 : @100_jummanjum</h4>
+                    <h4>이메일 : semomoo3692@naver.com</h4>
+                    
+                </footer>
+                
+            </body>
+        </head>
+                </html>
