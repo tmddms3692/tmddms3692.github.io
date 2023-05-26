@@ -36,19 +36,25 @@
                 background-color: beige;
                 color: black;}
                 
-                .aside {
-                margin: 0px 20px 0px 900px;
-            clear: both; }
-	
+                .aside {width: 300px;
+                    height: 250px;
+                margin-top: 10px;
+                float: left;}
 
+                .clear { clear: both; }
+	
+            #main {float:left;}
 
 
                 </style>
-                <body>
-                <header>환영합니다! My sweet home~<script>
+                </head>
+
+            <body>
+            <header>환영합니다! My sweet home~
+                    <script>
                     function changeimage(image) 
                     {document.getElementById("image").src = image;}
-                </script>
+                    </script>
                 <img id="image" src="짱구화이팅.jpg" width="50px" height="50px"
                 onmouseover="changeimage('짱구밥먹기.jpg')"onmouseout="changeimage('짱구화이팅.jpg')">
             </header>
@@ -75,78 +81,83 @@
                     <a href="쇼핑몰 판매 목록.html">판매 목록</a>
                     
                 </nav>
-                <aside>
-                    <div class="aside">
 
-                
-                    <a href="https://www.youtube.com/watch?v=QXeCun-UNkA"><img src="짱구심심.jpg" width="120px" height="90px"></a>
-                </div>  </aside>
+
 <br>
+            <div id="main">
                 <table>
 
                     <tr>
-                       <th><img src="짱구가방.png" width="30px" height="30px">시간</th><th>월</th> <th>화</th ><th>수</th> <th>목</th> <th>금</th>
+                    <th><img src="짱구가방.png" width="30px" height="30px">시간</th><th>월</th> <th>화</th ><th>수</th> <th>목</th> <th>금</th>
                     </tr>
                     
                     <tr>
-                      <th>9:30~10:30</th> <th></th> <th></th> <th></th> <th></th> <th></th>
+                    <th>9:30~10:30</th> <th></th> <th></th> <th></th> <th></th> <th></th>
                     </tr>
-                 
+                
                     <tr>
-                     <th>10:30~11:30</th> <th></th> <th></th> <th rowspan="2" >천안의 이해</th> <th>디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 웹프로그래밍</th>
+                    <th>10:30~11:30</th> <th></th> <th></th> <th rowspan="2" >천안의 이해</th> <th>디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 웹프로그래밍</th>
                     </tr>
-                 
-                 
+                
+                
                     <tr>
-                       <th>11:30~12:30</th>
-                       <th></th> <th rowspan="2"> 디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 대학영어회화2</th>
-                       
+                    <th>11:30~12:30</th>
+                    <th></th> <th rowspan="2"> 디지털콘텐츠비즈니스개론</th> <th rowspan="2"> 대학영어회화2</th>
+                    
                     </tr>
-                 
+                
                     <tr>
-                       <th>12:30~1:30</th> <th></th> <th></th> <th></th>
+                    <th>12:30~1:30</th> <th></th> <th></th> <th></th>
                     </tr>
-                  
+                
                     <tr>
-                       <th>1:30~2:30</th> <th></th> <th rowspan="2" >경영정보시스템</th> <th>경영정보시스템</th> <th></th> <th></th>
-                 
+                    <th>1:30~2:30</th> <th></th> <th rowspan="2" >경영정보시스템</th> <th>경영정보시스템</th> <th></th> <th></th>
+                
                     </tr>
                     
                     <tr>
-                       <th>2:30~3:30</th> <th></th> <th></th> <th></th>
-                     
-                    </tr>
-                 
-                    <tr>
-                       <th>3:30~4:30</th> <th></th> <th></th> <th></th> <th></th>
-                     
-                    </tr>
-                 
-                    <tr>
-                       <th>4:30~5:30</th> <th></th> <th rowspan="2">예비부모교육</th> <th></th> <th></th>
-                       
-                    </tr>
-                 
-                    <tr>
-                     <th>5:30~6:30</th> <th></th> <th></th> <th rowspan="2" >한국음악과 문화</th> <th></th>
-                  </tr>
-                 
-                     <tr>
-                      <th>6:30~7:30</th> <th></th> <th></th> <th></th>
-                     </tr>
-                         
-                     <tr>
-                      <th>7:30~8:30</th> <th></th> <th></th> <th></th> <th></th>
-                     </tr>
-                         
-                     <tr>
-                      <th>8:30~9:30</th> <th></th> <th></th> <th></th> <th></th> <th>웹프로그래밍</th>
-                     </tr>
-                 
+                    <th>2:30~3:30</th> <th></th> <th></th> <th></th>
                     
-                 </table>
-                 
-                 
+                    </tr>
+                
+                    <tr>
+                    <th>3:30~4:30</th> <th></th> <th></th> <th></th> <th></th>
+                    
+                    </tr>
+                
+                    <tr>
+                    <th>4:30~5:30</th> <th></th> <th rowspan="2">예비부모교육</th> <th></th> <th></th>
+                    
+                    </tr>
+                
+                    <tr>
+                    <th>5:30~6:30</th> <th></th> <th></th> <th rowspan="2" >한국음악과 문화</th> <th></th>
+                </tr>
+                
+                    <tr>
+                    <th>6:30~7:30</th> <th></th> <th></th> <th></th>
+                    </tr>
+                        
+                    <tr>
+                    <th>7:30~8:30</th> <th></th> <th></th> <th></th> <th></th>
+                    </tr>
+                        
+                    <tr>
+                    <th>8:30~9:30</th> <th></th> <th></th> <th></th> <th></th> <th>웹프로그래밍</th>
+                    </tr>
+                
+                    
+                </table>
+            </div>
+
+            
+            <aside>
+                <div class="aside">
+                    <a href="https://www.youtube.com/watch?v=QXeCun-UNkA"><img src="짱구심심.jpg" width="120px" height="90px"></a>
+                </div>  
+            </aside>
+
+            <div class="clear"></div>
 
                  <footer>
                     <h4>주소 : 충청남도 천안시 동남구 호서대길 12</h4>
@@ -157,5 +168,4 @@
                 </footer>
                 
             </body>
-        </head>
-                </html>
+</html>
